@@ -1,0 +1,20 @@
+.up {
+    width: 40px;
+    height: 40px;
+    border-radius: 10px;
+    background: #7653FC;
+    box-shadow: 0 4px 4px rgba(0, 0, 0, 0.05);
+    bottom: 30px;
+    right: 30px;
+    position: fixed;
+    cursor: pointer;
+    border: none;
+}
+
+.up:hover {
+    background: var(--primary-hover);
+}
+
+.up svg {
+    pointer-events: none;
+}

@@ -1,0 +1,25 @@
+.date {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+    font-size: 12px;
+    line-height: 16px;
+}
+
+.date span {
+    display: inline-block;
+    font-size: 12px;
+    line-height: 16px;
+}
+
+.date__direction {
+    padding-right: 4px;
+}
+
+.date__date {
+    margin-right: auto;
+}
+
+.date__dot {
+    transform: translateY(-3px);
+}

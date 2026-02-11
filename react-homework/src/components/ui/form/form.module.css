@@ -1,0 +1,13 @@
+.form {
+    display: flex;
+    align-items: center;
+    align-self: center;
+    gap: 8px;
+    margin-bottom: 80px;
+}
+
+.form__entrance {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 18px;
+}

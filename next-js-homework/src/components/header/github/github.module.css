@@ -1,0 +1,19 @@
+.header__github {
+    position: relative;
+}
+
+.header__github::after {
+    content: "";
+    display: block;
+    width: 24px;
+    height: 24px;
+    background-color: var(--white);
+    mask: url("../../../../public/github.svg") no-repeat center / 24px 24px;
+    transition: background-color 0.2s;
+}
+
+@media (any-hover: hover) {
+    .header__github:hover::after {
+        background-color: #1473e6;
+    }
+}

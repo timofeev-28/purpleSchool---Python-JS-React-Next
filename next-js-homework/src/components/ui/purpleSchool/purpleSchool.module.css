@@ -1,0 +1,10 @@
+.purpleschool {
+    display: block;
+    transform: translateY(4px);
+}
+
+@media (max-width: 500px) {
+    .purpleschool {
+        display: none;
+    }
+}

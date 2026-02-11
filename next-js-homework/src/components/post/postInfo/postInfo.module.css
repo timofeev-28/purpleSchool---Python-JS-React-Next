@@ -1,0 +1,22 @@
+.info {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+    font-size: 12px;
+    line-height: 16px;
+}
+
+.info span {
+    display: inline-block;
+    font-size: 12px;
+    line-height: 16px;
+    margin-right: 8px;
+}
+
+.info__direction {
+    padding-right: 4px;
+}
+
+.info__dot {
+    transform: translateY(-3px);
+}

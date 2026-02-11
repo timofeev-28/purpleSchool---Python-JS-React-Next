@@ -1,0 +1,134 @@
+.film {
+    padding: 30px 75px;
+}
+
+.film__title  {
+    display: grid;
+    margin-bottom: 50px;
+    padding: 20px;
+    border-radius: 24px;
+    background-color: #1F253E;
+    backdrop-filter: blur(24px);
+}
+
+.film__title span {
+    margin-bottom: 4px;
+    font-size: 12px;
+    line-height: 16px;
+    color: #BEB7FB;
+}
+
+.film__content_wrap {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    column-gap: 50px;
+    margin-bottom: 40px;
+}
+
+.film__image_wrap {
+    align-self: start;
+    border-radius: 28px;
+    overflow: hidden;
+}
+
+.film__image_wrap img {
+    width: 100%;
+    height: auto;
+}
+
+.film__content {
+    color: #8E95A9;
+}
+
+.film__descr {
+    margin-top: 0;
+    margin-bottom: 25px;
+    font-size: 20px;
+    line-height: 32px;
+}
+
+.film__rating_wrap {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    margin-bottom: 25px;
+}
+
+.film__rating {
+    position: relative;
+    margin: 0;
+    padding: 5px 9px 5px 24px;
+    font-size: 16px;
+    line-height: 24px;
+    color:#FFAD49;
+    border-radius: 8px;
+    background: #000000A6;
+    backdrop-filter: blur(8px);
+}
+
+.film__rating::before {
+    content: "";
+    position: absolute;
+    top: 50%;
+    left: 5px;
+    transform: translateY(-50%);
+    width: 14px;
+    height: 14px;
+    background: url("../../../public/icons/star-transparent.svg") no-repeat center / 14px 14px;
+}
+
+.film__subtitle {
+    display: block;
+    margin-bottom: 6px;
+    font-size: 16px;
+    line-height: 24px;
+    color: #767E94;
+}
+
+.film__text {
+    margin-bottom: 12px;
+    font-size: 20px;
+    line-height: 32px;
+    color: #C3C8D4;
+}
+
+.film__reviews_title {
+    margin-top: 0;
+    margin-bottom: 20px;
+    font-size: 16px;
+    line-height: 24px;
+    color: #767E94;
+}
+
+.film__reviews_wrap {
+    padding: 30px;
+    background: #20283ECC;
+    backdrop-filter: blur(24px);
+    border-radius: 24px;
+}
+
+.film__reviews_subtitle_wrap {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.film__reviews_subtitle {
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 32px;
+    color: #C3C8D4;
+}
+
+.film__reviews_date {
+    font-size: 16px;
+    line-height: 24px;
+    color: #767E94;
+}
+
+.film__reviews_descr {
+    font-size: 20px;
+    line-height: 32px;
+    color: #8E95A9;
+}

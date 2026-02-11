@@ -1,0 +1,30 @@
+body {
+    margin: 0;
+    min-height: 100vh;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 28px;
+    font-weight: 500;
+    background-color: rgba(178, 180, 176, 0.842);
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    min-height: 100vh;
+    margin: 0 auto;
+    max-width: 1024px;
+    background-color: rgba(85, 146, 15, 0.842);
+}
+
+.timer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    padding: 15px;
+    min-width: 800px;
+    min-height: 200px;
+    background-color: rgba(236, 125, 52, 0.842);
+    border-radius: 5px;
+}

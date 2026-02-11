@@ -1,0 +1,43 @@
+.btn {
+    position: relative;
+    /* margin-top: auto; */
+    padding: 6px 8px 4px 37px;
+    min-height: 24px;
+    border: none;
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 600;
+    letter-spacing: 0.4px;
+    text-align: left;
+    color: #7B6EF6;
+    background-color: transparent;
+    cursor: pointer;
+    transition: opacity 0.15s;
+}
+
+.btn:hover {
+    opacity: 0.7;
+}
+
+.btn__fav {
+    color: #37D8A7;
+}
+
+.btn::after {
+    content: "";
+    position: absolute;
+    top: 50%;
+    left: 8px;
+    transform: translateY(-50%);
+    width: 24px;
+    height: 24px;
+    background: var(--svg);
+}
+
+.btn__main::after {
+    --svg: url("../../../../public/icons/like.svg") no-repeat center / 24px 24px;
+}
+
+.btn__fav::after {
+    --svg: url("../../../../public/icons/favorites.svg") no-repeat center / 24px 24px;
+}

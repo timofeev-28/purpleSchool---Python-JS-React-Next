@@ -1,0 +1,40 @@
+.info {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    padding-top: 20px;
+}
+
+.info__time_wrap {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: auto;
+    font-size: 12px;
+    line-height: 16px;
+}
+
+.info__link {
+    position: relative;
+    display: inline-block;
+    padding-right: 23px;
+    color: #1473e6;
+    transition: opacity 0.2s;
+}
+
+@media (any-hover: hover) {
+    .info__link:hover {
+        opacity: 0.7;
+    }
+}
+
+.info__link::after {
+    content: "";
+    position: absolute;
+    top: 50%;
+    right: 0;
+    transform: translateY(-50%);
+    width: 20px;
+    height: 20px;
+    background: url("../../../../public/arrow.svg") no-repeat center / 20px 20px;
+}

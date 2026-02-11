@@ -1,0 +1,31 @@
+.input {
+    position: relative;
+    width: 384px;
+    height: 60px;
+    padding-left: 18px;
+    padding-right: 16px;
+    border: 1px solid #323B54;
+    border-radius: 12px;
+    color: rgb(255, 255, 255);
+    background-color: rgba(0, 0, 0, 0.1);
+    font-size: 14px;
+    line-height: 16px;
+}
+
+.input:disabled {
+    opacity: 0.5;
+}
+
+.input__icon {
+    padding-left: 56px;
+    background-image: url("/public/icons/search.svg");
+    background-repeat: no-repeat;
+    background-size: 24px 24px;
+    background-position: left 17px center;
+}
+
+.invalid {
+    outline: none;
+    border: 1px solid red;
+    background: rgb(224, 141, 141);
+}

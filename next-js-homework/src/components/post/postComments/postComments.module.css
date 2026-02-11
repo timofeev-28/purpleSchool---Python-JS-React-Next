@@ -1,0 +1,36 @@
+.comments__comment {
+    margin-bottom: 24px;
+}
+
+.comments__email_wrap {
+    margin-bottom: 5px;
+    font-size: 12px;
+}
+
+.comments__name {
+    position: relative;
+    display: inline-block;
+    padding-right: 18px;
+
+    font-weight: 900;
+}
+
+.comments__name::after {
+    content: ".";
+    position: absolute;
+    top: -2px;
+    right: 6px;
+    width: 4px;
+    height: 4px;
+    color: white;
+}
+
+.comments__comment p {
+    margin: 0;
+}
+
+.comments ul {
+    margin-block: 0;
+    padding-left: 0;
+    list-style: none;
+}

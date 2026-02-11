@@ -1,0 +1,14 @@
+.user {
+    padding-top: 80px;
+}
+
+.user__title {
+    margin-top: 0;
+    margin-bottom: 30px;
+    font-size: 38px;
+}
+
+.user__name {
+    margin: 0;
+    font-size: 32px;
+}

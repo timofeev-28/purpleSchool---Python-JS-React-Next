@@ -1,0 +1,43 @@
+.like__wrap {
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.like__wrap span {
+    margin-right: 20px;
+}
+
+.button {
+    position: relative;
+    padding: 0;
+    width: 48px;
+    height: 48px;
+    background-color: transparent;
+    border-radius: 50%;
+    border: 1px solid var(--white);
+    cursor: pointer;
+}
+
+.button:hover {
+    box-shadow: 0 0 8px 2px #fff;
+}
+
+.button::before {
+    content: "";
+    display: block;
+    width: 48px;
+    height: 48px;
+    border-radius: 50%;
+    background-color: var(--white);
+    mask: url("../../../public/likes.svg") no-repeat center / 18px 18px;
+}
+
+.isLikes {
+    border-color: #1473e6;
+}
+
+.isLikes::before {
+    background-color: #1473e6;
+}

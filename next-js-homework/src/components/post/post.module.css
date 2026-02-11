@@ -1,0 +1,22 @@
+.post__image_wrap {
+    position: relative;
+    padding: 10px;
+    border-radius: 5px;
+    background-color: var(--light-blue);
+    width: 60%;
+}
+
+.post__image_wrap::before {
+    content: "";
+    display: block;
+    padding-top: 70%;
+}
+
+.post__image {
+    position: absolute;
+    inset:10px;
+    width: calc(100% - 20px);
+    height: calc(100% - 20px);
+    display: block;
+    border-radius: 5px;
+}
